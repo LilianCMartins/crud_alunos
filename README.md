@@ -65,6 +65,42 @@ POST /alunos – cria registro
 PUT /alunos/{id} – atualiza 
 DELETE /alunos/{id} – remove 
 
+## 🧪 Testes de Desempenho com JMeter
+
+Este projeto inclui um plano de teste JMeter para avaliar o desempenho da API.
+
+## ▶️ Como executar
+
+Baixe o Apache JMeter.
+
+Abra o arquivo: test-plan-api.jmx
+
+Clique em Run (▶️) para iniciar os testes.
+
+## 📂 O plano contém
+
+Thread Group (simulação de usuários)
+
+HTTP Requests para os endpoints
+
+Summary Report
+
+Aggregate Report
+
+View Results Tree
+
+Graph Results (opcional)
+
+## 🎯 Objetivo dos Testes
+
+Medir tempo de resposta
+
+Avaliar throughput
+
+Identificar erros e gargalos
+
+Gerar relatórios para análise
+
 
 
 ## 🙋‍♀️ Autora
